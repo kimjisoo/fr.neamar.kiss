@@ -2,15 +2,15 @@
 <resources>
 
     <style name="BaseThemeLight" parent="@android:style/Theme.Material.Light.NoActionBar">
-        <item name="android:colorPrimary">@color/kiss_green</item>
-        <item name="android:colorPrimaryDark">@color/kiss_green</item>
+        <item name="android:colorPrimary">@android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
         <item name="android:colorAccent">@color/kiss_green</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
 
     <style name="BaseThemeDark" parent="@android:style/Theme.Material.NoActionBar">
-        <item name="android:colorPrimary">@color/kiss_green</item>
-        <item name="android:colorPrimaryDark">@color/kiss_green</item>
+        <item name="android:colorPrimary">@android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
         <item name="android:colorAccent">@color/kiss_green</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
@@ -24,12 +24,12 @@
 
     <style name="AppThemeSemiTransparent" parent="AppThemeLight">
         <item name="listBackgroundColor">@color/kiss_background_light_transparent</item>
-        <item name="android:colorPrimaryDark">@color/kiss_green_semitransparent</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
     </style>
 
     <style name="AppThemeSemiTransparentDark" parent="AppThemeDark">
         <item name="listBackgroundColor">@color/kiss_background_dark_transparent</item>
-        <item name="android:colorPrimaryDark">@color/kiss_green_semitransparent</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
     </style>
 
     <style name="AppThemeTransparentDark" parent="AppThemeDark">
@@ -41,13 +41,13 @@
     <style name="SettingTheme" parent="AppThemeLight">
         <item name="android:windowBackground">@color/kiss_background</item>
         <item name="android:textColorSecondary">#7f7f7f</item>
-        <item name="android:colorPrimaryDark">@color/kiss_green</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/black</item>
     </style>
 
     <style name="SettingThemeDark" parent="AppThemeDark">
         <item name="android:windowBackground">@color/kiss_list_background_inverse</item>
-        <item name="android:colorPrimaryDark">@color/kiss_green</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/black</item>
     </style>
 </resources>
